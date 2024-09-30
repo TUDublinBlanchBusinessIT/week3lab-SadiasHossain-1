@@ -7,7 +7,7 @@ import React, {useState} from 'react';
 export default function App(){
 
   function buttonClicked() {
-    Alert.alert("button clicked");
+    Alert.alert("Hello" + " "+ fname + " " + lname + " " + dob);
 }
   const [fname, setFname] = useState("Joe");
   const [lname, setLname] = useState("Bloggs");
@@ -24,5 +24,6 @@ export default function App(){
     </View>  
   )
 }
+
 
 
